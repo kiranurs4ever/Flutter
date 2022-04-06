@@ -1,0 +1,18 @@
+
+Everything went smooth except the cocopods
+
+https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma
+
+
+https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#start-here-if-you-choose-the-long-and-manual-route
+
+
+Flutter channel
+Flutter channel beta
+flutter config --enable-macos-desktop
+Flutter device
+Flutter run
+(Chose the option 1 for Mac OS)
+
+
+Flutter packages get —> to pick up pub spec.yaml

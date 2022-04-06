@@ -1,0 +1,66 @@
+
+Session 2:
+
+16. Module introduction what will you be learning in this module 
+17. Creating a new project 
+    1. To create a flutter project 
+        1. $flutter create Project_Name
+        2. $flutter packages get
+        3. $flutter run
+18. An overview of generated files & Folders
+    1. We will be working mostly on Lib/ folder & Pubsecs.yaml file 
+19. So info about git
+20. Analyse the default app .
+    1. He just removed all the code in the main.app to rewrite it from scratch
+21. Dart Basics
+    1.  https://dartpad.dev/?  
+        1. Web based playground for dart programming practice .
+        2. HE Wrote some code which is similar to c/java syntax and key words
+22. More Dart Basic
+    1. class Person{
+    2.   String name = "Max";
+    3.   int age = 30;
+    4. }
+    5. 
+    6. 
+    7. 
+    8. int addNumbers(int num1 , int num2){
+    9.   return num1+num2;
+    10. }
+    11. 
+    12. void main(){
+    13.   print(addNumbers(1,2));
+    14.   
+    15.   var p1= Person();
+    16.   var p2= Person();
+    17.   
+    18.   p1.age = 40;
+    19.   p2.name = "kiran";
+    20.   
+    21.   print(p1.age);
+    22.   print(p2.age);
+    23.   
+    24.   print(p1.name);
+    25.   print(p2.name);
+    26.   
+    27. }
+23. Similar to the above 22 class just a PDF for reading ..
+24. Building an APP from Scratch 
+    1. He Wrote first simple app with downloading multiple widgets need to understand them properly.
+    2. Will watch this video again and understand more clearer.
+25. Code which worked 
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Text("Hello Flutter from kiran 123"),
+    );
+  }
+}
+
+
